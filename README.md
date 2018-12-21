@@ -1,0 +1,42 @@
+整理了最近几年关于Sentences Match 以及 Relevance Match 相关的顶会论文，对于公开代码，给出了git 链接
+
+| Model                        | Paper                                                        | OpenSource | Link                                                         | Year |
+| ---------------------------- | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ---- |
+| DSSM                         | Learning Deep Structured Semantic Models for Web Search using   Clickthrough Data[CIKM 2013] | Y          | <https://github.com/baharefatemi/DSSM>                       | 2013 |
+| CDSSM                        | A latent semantic model with convolutional-pooling structure   for information retrieval[CIKM 2014] | Y          | <https://github.com/nishnik/Deep-Semantic-Similarity-Model-PyTorch/blob/master/cdssm.py> | 2014 |
+| ARC-I/ARC-II                 | Convolutional Neural Network Architectures for Matching   Natural Language Sentences[NIPS 2014] | N          |                                                              | 2014 |
+| CNTN                         | Convolutional Neural Tensor Network Architecture for   Community-Based Question Answering[IJCAI 2015] | N          |                                                              | 2015 |
+| MultiGranCNN                 | MultiGranCNN: An Architecture for General Matching of Text   Chunks on Multiple Levels of Granularity[ACL 2015] | N          |                                                              | 2015 |
+| LSTM-RNN                     | Deep Sentence Embedding Using the Long Short Term Memory   Network: Analysis and Application to Information Retrieval[TASLP 2016] | N          |                                                              | 2016 |
+| MatchPyramid                 | Text Matching as Image Recognition[AAAI 2016]                | Y          | <https://github.com/pl8787/MatchPyramid-TensorFlow>          | 2016 |
+| MV-LSTM                      | A Deep Architecture for Semantic Matching with Multiple   Positional Sentence Representations[AAAI 2016] | N          |                                                              | 2016 |
+| Match-SRNN                   | Match-SRNN: Modeling the Recursive Matching Structure with   Spatial RNN[IJCAI 2016] | N          |                                                              | 2016 |
+| Decomposable Attention Model | A Decomposable Attention Model for Natural Language   Inference[EMNLP 2016] | Y          | <https://github.com/HsiaoYetGun/Decomposable-Attention>      | 2016 |
+| DRMM                         | A Deep Relevance Matching Model for Ad-hoc Retrieval[CIKM   2016] | Y          | <https://github.com/sebastian-hofstaetter/neural-ranking-drmm> | 2016 |
+| hybrid of ConvNet and BiLSTM | Pairwise Word Interaction Modeling with Deep Neural Networks   for Semantic Similarity Measurement[NAACL-HLT 2016] | N          |                                                              | 2016 |
+| ABCNN                        | ABCNN: Attention-Based Convolutional Neural Network for   Modeling Sentence Pairs[TACL 2016] | Y          | <https://github.com/galsang/ABCNN>                           | 2016 |
+| SeqMatchSeq                  | A compare-aggregate model for matching text sequences        | Y          | <https://github.com/shuohangwang/SeqMatchSeq>                | 2016 |
+| K-NRM                        | End-to-End Neural Ad-hoc Ranking with Kernel Pooling[SIGIR   2017] | Y          | <https://github.com/AdeDZY/K-NRM>                            | 2017 |
+| DeepRank                     | DeepRank: a New Deep Architecture for Relevance Ranking in   Information Retrieval[CIKM 2017] | N          |                                                              | 2017 |
+| BiMPM                        | Bilateral Multi-Perspective Matching for Natural Language   Sentences[IJCAI 2017] | Y          | <https://github.com/zhiguowang/BiMPM>                        | 2017 |
+| ESIM                         | Enhancing and Combining Sequential and Tree LSTM for Natural   Language Inference[ACL 2017] | Y          | <https://github.com/lukecq1231/nli>                          | 2017 |
+| PACRR                        | PACRR: A Position-Aware Deep Model for Relevance Matching in   Information Retrieval[EMNLP 2017] | Y          | <https://github.com/khui/copacrr>                            | 2017 |
+| LMLDR                        | Learning to Match Using Local and Distributed Representations   of Text for Web Search[WWW 2017] | N          |                                                              | 2017 |
+| weak-supervision             | Neural ranking models with weak supervision [SIGIR 2017]     | Y          | <https://github.com/hamed-zamani/snrm>                       | 2017 |
+| K-NRM                        | End-to-end neural ad-hoc ranking with kernel   pooling[SIGIR 2017] | Y          | <https://github.com/AdeDZY/K-NRM>                            | 2017 |
+| Conv-KNRM                    | Convolutional Neural Networks for Soft-Matching N-Grams in   Ad-hoc Search[WSDM 2018] | Y          | <https://github.com/thunlp/EntityDuetNeuralRanking>          | 2018 |
+| MIX                          | Multi-Channel Information Crossing for Text Matching[KDD 2018] | N          |                                                              | 2018 |
+| DIIN                         | Natural Language Inference over interaction space[ICLR 2018] | Y          | <https://github.com/YichenGong/Densely-Interactive-Inference-Network> | 2018 |
+| AdaQA                        | Learning Context-Sensitive Convolutional Filters for Text   Processing[EMNLP 2018] | N          |                                                              | 2018 |
+| ComProp                      | Compare, Compress and Propagate: Enhancing Neural   Architectureswith Alignment Factorization for Natural Language   Inference[EMNLP 2018] | N          |                                                              | 2018 |
+| DSA                          | Dynamic Self-Attention :   Computing Attention over Words Dynamically for Sentence Embedding | N          |                                                              | 2018 |
+| ElBis                        | Element-wise Bilinear Interaction for Sentence Matching[JCLCS   2018] | N          |                                                              | 2018 |
+| HSF                          | Matching Natural Language Sentences with Hierarchical Sentence   Factorization[ WWW 2018] | Y          | <https://github.com/BangLiu/SentenceMatching>                | 2018 |
+| MwAN                         | Mutliway Attention Networks for Modeling Sentences Pairs[IJCAI   2018] | N          |                                                              | 2018 |
+| pair2vec                     | pair2vec: Compositional Word-Pair Embeddings for   Cross-Sentence Inference | N          |                                                              | 2018 |
+| DCNN                         | Deconvolutional Paragraph Representation Learning [NIPS2018] | Y          | <https://github.com/dreasysnail/textCNN_public>              | 2018 |
+| HiNT                         | Modeling Diverse Relevance Patterns in Ad-hoc Retrieval[SIGIR   2018] | N          |                                                              | 2018 |
+| MCAN                         | Multi-Cast Attention Networks for Retrieval-based Question   Answering and Response Prediction[KDD2018] | N          |                                                              | 2018 |
+| DLCM                         | Learning a Deep Listwise Context   Model for Ranking Refinement[SIGIR 2018] | Y          | <https://github.com/QingyaoAi/Deep-Listwise-Context-Model-for-Ranking-Refinement> | 2018 |
+| Co-PACRR                     | A Context-Aware Neural IR Model for Ad-hoc Retrieval[WSDM   2018] | Y          | <https://github.com/khui/copacrr>                            | 2018 |
+| DRCN                         | Semantic Sentence Matching with   Densely-connected Recurrent and Co-attentive Information[AAAI 2019] | N          |                                                              | 2019 |
